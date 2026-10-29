@@ -1,0 +1,367 @@
+// Only exact, known UI strings are translated. Keep model and user content intact.
+const FLORA_ZH = {
+  'New project':'新建项目','Create new project':'创建新项目','Create':'创作','Generate':'生成','Home':'首页','Projects':'项目','Project':'项目','Library':'素材库','Tools':'工具','Techniques':'技巧','Community':'社区','More':'更多','Pinned':'已固定','Trash':'回收站','Help':'帮助','Search':'搜索','Members':'成员','Notifications':'通知','Back to Home':'返回首页','Account settings':'账户设置','Account and workspace switcher':'切换账户和工作区','Workspace':'工作区','Private':'私人','Project scope':'项目范围','Search projects':'搜索项目','Folders':'文件夹','Add Folder':'添加文件夹','No projects yet':'还没有项目','There are no projects here. Get started by creating your first project.':'这里还没有项目，创建第一个项目开始使用。','Your Workspace is almost out of usage':'工作区可用额度即将用完','Upgrade':'升级','Dismiss low usage notice':'关闭额度不足提示','New':'新功能',
+  'New Thread':'新会话','New thread':'新建会话','Thread history':'会话历史','Create with any image or video model':'使用任意图片或视频模型创作','Generation prompt':'生成提示词','Add reference':'添加参考图','Image':'图片','Video':'视频','Generation type':'生成类型','Aspect ratio':'宽高比','Resolution':'分辨率','Quantity':'数量','Decrease quantity':'减少数量','Increase quantity':'增加数量','Dictate prompt':'语音输入提示词','Generate images or videos':'生成图片或视频','Switch between image and video generation any time.':'随时切换图片和视频生成模式。','Close':'关闭',
+  'Chats':'聊天','Chat history':'聊天历史','Collapse chat history':'收起聊天历史','Resize chat history':'调整聊天历史宽度','New chat':'新建聊天','New Chat':'新建聊天','Connect Apps':'连接应用','Search chats':'搜索聊天','No previous chats':'暂无聊天记录','What will you create today?':'今天想创作什么？','Chat mode':'聊天模式','Agent':'智能体','Auto':'自动','Skills':'技能','Create Skill':'创建技能','Create a skill':'创建技能','Filter skills by scope':'按范围筛选技能','Show all skills':'显示全部技能','Show my skills':'显示我的技能','Show FLORA skills':'显示 FLORA 技能','Use skill':'使用技能','View':'查看','Add to this message':'添加到此消息','Enter a prompt here or type "/" to access our library of skills':'在此输入提示词，或输入“/”访问技能库',
+  'Settings':'设置','Account':'账户','Profile':'个人资料','General':'通用','Billing':'账单','Subscription':'订阅','Usage':'用量','Plan':'套餐','Manage':'管理','Manage subscription':'管理订阅','Save':'保存','Cancel':'取消','Delete':'删除','Edit':'编辑','Rename':'重命名','Duplicate':'复制','Copy':'复制','Download':'下载','Upload':'上传','Share':'分享','Remove':'移除','Done':'完成','Continue':'继续','Back':'返回','Next':'下一步','Create folder':'创建文件夹','New folder':'新建文件夹','Folder name':'文件夹名称','Project name':'项目名称','Untitled':'未命名','Untitled project':'未命名项目','Search...':'搜索…','Search…':'搜索…','All':'全部','Recent':'最近','Favorites':'收藏','No results found':'未找到结果','Try again':'重试','Loading...':'加载中…','Loading…':'加载中…','Select all':'全选','Clear':'清除','Apply':'应用','Confirm':'确认','Learn more':'了解更多','See all':'查看全部','Show more':'显示更多','Show less':'收起','Images':'图片','Videos':'视频','Audio':'音频','Text':'文本','Model':'模型','Models':'模型','Prompt':'提示词','Negative prompt':'反向提示词','Reference':'参考','References':'参考素材','Style':'风格','Duration':'时长','Quality':'质量','Advanced settings':'高级设置','History':'历史记录','Results':'结果','Download all':'全部下载','Retry':'重试','Generating':'正在生成','Generating...':'正在生成…','Copy prompt':'复制提示词','Add image':'添加图片','Upload image':'上传图片','Select model':'选择模型','Choose a model':'选择模型','Regenerate':'重新生成','Undo':'撤销','Redo':'重做','Zoom in':'放大','Zoom out':'缩小','Fit to screen':'适应屏幕','Fullscreen':'全屏','Exit fullscreen':'退出全屏','Untitled Project':'未命名项目'
+};
+
+Object.assign(FLORA_ZH, {
+  'Picks the best model for you':'为你选择最合适的模型',
+  'Pinned models':'已固定的模型', 'Models you favorite will appear here':'收藏的模型将显示在这里',
+  'Featured models':'精选模型', 'Providers':'模型提供商', 'Pin':'固定', 'Unpin':'取消固定',
+  "Google's fast image model with adjustable thinking, successor to Nano Banana 2.":'Google 的快速图像模型，支持调整思考程度，是 Nano Banana 2 的后续版本。',
+  'Highest quality from Google, up to 4K.':'Google 的高质量图像模型，最高支持 4K。',
+  'Flagship image model from OpenAI, tuned for detailed work.':'OpenAI 的旗舰图像模型，针对精细创作优化。',
+  'Efficient content creation and production capabilities':'高效的内容创作和制作能力',
+  'Crisp typography and structured edits from sketches, depth and references.':'文字清晰，可根据草图、深度图和参考图进行结构化编辑。',
+  'Precise edits that leave other pixels untouched, layout by bounding box, up to 10 references, and 4K output.':'精确编辑并保持其他像素不变；支持边界框布局、最多 10 张参考图和 4K 输出。',
+  'Generate a seamless tileable 3D PBR material from a text prompt.':'根据文字提示生成可无缝平铺的 3D PBR 材质。',
+  "Google's new state-of-the-art image model.":'Google 新一代先进图像模型。',
+  'Fast and lightweight, good for iterating.':'快速轻量，适合反复迭代。',
+  'Next-gen image synthesis with enhanced prompt understanding.':'新一代图像生成模型，提升了对提示词的理解。',
+  'Sharp text rendering with 4K output.':'清晰呈现文字，支持 4K 输出。',
+  'Strong spatial understanding, good for batch work.':'空间理解能力强，适合批量创作。',
+  'Cinematic film-style visuals with legible text.':'电影风格画面，文字清晰可辨。',
+  'Upload a file':'上传文件','Choose from Library':'从素材库选择','Library navigation':'素材库导航',
+  'Assets':'素材','Decks':'画板集','Explore':'探索','Abstract':'抽象','Nature':'自然','Animals':'动物','Portraits':'人像','Landscape':'风景','Texture':'纹理',
+  'Smaller cards':'缩小卡片','Larger cards':'放大卡片','Card size':'卡片大小','Toggle detail panel':'切换详情面板','Close library':'关闭素材库',
+  'Decrease duration':'缩短时长','Increase duration':'增加时长','Duration in seconds':'时长（秒）'
+});
+Object.assign(FLORA_ZH, {
+'Recents':'最近','Canvas':'画布','Select':'选择','Project menu':'项目菜单','Back to home':'返回首页','Show sidebar (⇧/)':'显示侧边栏 (⇧/)','Add Node':'添加节点','Cursor':'光标','Hand':'抓手','Field':'区域','Comment':'评论','Annotate':'标注','Project tools':'项目工具','Project Chat':'项目聊天','Build Technique':'创建技巧','Install MCP':'安装 MCP','Open in Agent':'在智能体中打开','Mention node':'引用节点','Reference Element':'参考元素','Enhance prompt':'优化提示词','Generation history carousel':'生成历史','Previous variant':'上一个版本','Next variant':'下一个版本','Generation options':'生成选项','Aspect Ratio':'宽高比','Web Search':'网络搜索','Thinking':'思考程度','Seed':'随机种子','Edit seed':'编辑随机种子','Cost':'费用','Creator':'创建者','Created':'创建时间','Format':'格式','Size':'大小','High':'高','Medium':'中','Low':'低','false':'关闭','true':'开启','Generation cost details':'生成费用详情','Loading generation cost':'正在加载生成费用','Queue':'队列','Upgrade now':'立即升级','Comment on this canvas':'在此画布评论','Press C, or hover any node and use the comment icon, to start a thread. Everyone with access can reply.':'按 C，或将鼠标移至节点并点击评论图标，即可发起讨论。有访问权限的人都可以回复。','Got it':'知道了',
+'Add nodes, actions, and tools':'添加节点、操作和工具','Generate and edit text':'生成和编辑文本','Generate and edit images':'生成和编辑图片','Generate and edit videos':'生成和编辑视频','Generate and edit audio':'生成和编辑音频','Import, view, and capture 3D models':'导入、查看和捕捉 3D 模型','Technique':'技巧','Ready-to-run creative workflow':'即用型创意工作流','Import':'导入','Add media or PDFs from your computer':'从电脑添加媒体或 PDF','Export':'导出','Push wired assets to a destination':'将连接的素材导出到指定位置','Note':'笔记','Document your canvas in long-form text':'用长文本记录画布内容','Duplicate project':'复制项目','Rename project':'重命名项目','Move to folder':'移动到文件夹','Project preferences':'项目偏好设置',
+'Search settings':'搜索设置','Devices':'设备','Preferences':'偏好设置','Integrations':'应用集成','People & Seats':'成员与席位','API Keys':'API 密钥','Plans & Billing':'套餐与账单','Close settings':'关闭设置','Change profile picture':'更换头像','Upload profile photo':'上传头像','Free':'免费版','Community profile':'社区资料','Visible to the FLORA community. Your public name uses your first and last name below.':'对 FLORA 社区公开。你的公开名称使用下方的名字和姓氏。','Username':'用户名','Community username':'社区用户名','Choose a username':'选择用户名','Bio & social links':'个人简介和社交链接','Tell the community about yourself.':'向社区介绍你自己。','Edit profile':'编辑资料','View public profile':'查看公开资料','Account details':'账户详情','First name':'名字','Last name':'姓氏','Email':'电子邮箱','You’re signed in with Google.':'你已通过 Google 登录。','Security & privacy':'安全与隐私','Two-factor authentication':'双重身份验证','Add another layer of protection to your account.':'为账户添加一层保护。','Set up 2FA':'设置双重验证','Cookie preferences':'Cookie 偏好设置','Manage analytics, recording, and marketing cookies.':'管理分析、录制和营销 Cookie。','Reset cookie preferences':'重置 Cookie 偏好设置','Delete account':'删除账户','Permanently delete your account and personal data.':'永久删除你的账户和个人数据。',
+'Manage your canvas, generation, and download preferences.':'管理画布、生成和下载偏好设置。','Open dashboard projects':'打开项目的方式','Choose whether projects from the dashboard open in a new tab or the current tab':'选择从项目页面打开项目时使用新标签页还是当前标签页','New tab':'新标签页','Current tab':'当前标签页','Performance mode':'性能模式','Reduces animations and motion to enhance Editor performance':'减少动画和动态效果，提高编辑器性能','Snap to grid':'吸附到网格','If enabled, nodes will snap to the editor grid':'开启后，节点会吸附到编辑器网格','Show model logos on nodes':'在节点上显示模型标志',"Show the model provider's logo next to the model name on nodes":'在节点的模型名称旁显示提供商标志','Single input handle':'单一输入连接点','Show a single input handle on nodes instead of one handle per accepted input type':'每个节点只显示一个输入连接点','Warn before bulk deletes':'批量删除前提醒','Ask before deleting multiple nodes from the canvas':'从画布删除多个节点前询问','Generation':'生成','Background prompt improver':'后台提示词优化','Automatically improve prompts before generation':'生成前自动优化提示词','Variation behavior':'变体显示方式','Choose how variations appear':'选择变体的显示方式','In node history':'在节点历史中','Multi-model behavior':'多模型显示方式','Choose where multi-model generations appear':'选择多模型生成结果的显示位置','On canvas':'在画布上','Model for new nodes':'新节点的模型','Start new nodes with your default model or the model you last used':'新节点使用默认模型或上次使用的模型','Last used model':'上次使用的模型','Library & Uploads':'素材库与上传','Show legacy assets folder':'显示旧素材文件夹','Controls visibility of the old assets migration folder in Library':'控制素材库中旧素材迁移文件夹的显示','Repeated uploads':'重复上传','Choose what Flora does when it recognizes the same uploaded file again':'选择再次上传相同文件时 Flora 的处理方式','Ask every time':'每次询问','Downloads':'下载','Always show EU download':'始终显示欧盟下载选项','Show the Download (EU) option everywhere, regardless of your region. It adds an EU AI Act compliant watermark to downloaded media.':'无论所在地区，始终显示“下载（欧盟）”选项。下载的媒体将添加符合欧盟 AI 法案的水印。','Download assets with metadata':'下载素材时包含元数据','Downloading assets will also have its metadata attached':'下载素材时同时附带元数据','Usage & costs':'用量与费用','Show usage percentage':'显示用量百分比',"Shows your usage limit if your admin set one. Otherwise shows your team's included usage.":'管理员设置用量限制时显示该限制，否则显示团队包含的用量。','Show generation costs in dollars':'以美元显示生成费用','Replace cost icons with the dollar amount for each model and run':'用美元金额代替每个模型和生成任务的费用图标','Comment email notifications':'评论邮件通知',"Email me when I'm mentioned or someone replies to my comment":'有人提及我或回复我的评论时发送邮件',
+'Connect third-party services to import and export assets to and from FLORA.':'连接第三方服务，以便在 FLORA 中导入和导出素材。','Connect':'连接','Export FLORA assets to your Google Drive.':'将 FLORA 素材导出到 Google Drive。','Import files from your Dropbox into FLORA.':'从 Dropbox 导入文件到 FLORA。','Import and export media with your Frame.io projects.':'在 Frame.io 项目中导入和导出媒体。','Import frames and components from Figma files.':'从 Figma 文件导入画框和组件。','Browse your Savee saves and boards from the Library.':'在素材库中浏览你的 Savee 收藏和画板。','Connect your Shopify store to the FLORA app.':'将 Shopify 商店连接到 FLORA。','Lint and rewrite copy with Writer.':'使用 Writer 检查和改写文案。','Manage workspace details, access, and account controls.':'管理工作区详情、访问权限和账户控制。','Workspace name':'工作区名称','Workspace membership':'工作区成员身份','Leave this workspace and its projects.':'退出此工作区及其项目。','Leave workspace':'退出工作区','API key access':'API 密钥权限','Allow editors to create API keys':'允许编辑者创建 API 密钥','Editors can create API keys for this workspace.':'编辑者可以为此工作区创建 API 密钥。','Model access':'模型访问权限','Choose which models members can use in this workspace.':'选择工作区成员可以使用的模型。','Automatically enable new models':'自动启用新模型','New models are available automatically.':'新模型会自动可用。',
+'Choose a plan':'选择套餐','Plans':'套餐','Choose the workspace plan that fits your team.':'选择适合团队的工作区套餐。','View your plan, billing details, and usage options.':'查看套餐、账单详情和用量选项。','Monthly':'按月','Quarterly':'按季度','Yearly':'按年','Most popular':'最受欢迎','Current plan':'当前套餐','1 seat (solo)':'1 个席位（个人）','Up to 3 active projects':'最多 3 个活跃项目','Up to 8 seats':'最多 8 个席位','Pooled team usage':'团队共享用量','Unlimited projects':'无限项目','All models':'所有模型','Image, audio & text models - Video models':'图片、音频和文本模型 - 视频模型','Full canvas & Image Editor':'完整画布和图片编辑器','Run & create techniques':'运行和创建技巧','FAUNA (unlimited, free)':'FAUNA（免费无限使用）','Annotations & labels':'标注和标签','API & MCP access':'API 和 MCP 访问权限','Real-time collaboration':'实时协作','Everything in Starter':'包含 Starter 的所有功能','Everything in Pro':'包含 Pro 的所有功能','Shared team assets':'团队共享素材','Shared Elements':'共享元素','Per-member usage caps':'按成员设置用量上限','Usage analytics':'用量分析','Custom voices (3/org)':'自定义声音（每个组织 3 个）','Upgrade to Starter':'升级至 Starter','Upgrade to Pro':'升级至 Pro','Upgrade to Max':'升级至 Max','Limited usage for exploration':'有限的探索用量','Try FLORA and explore the canvas.':'试用 FLORA 并探索画布。','Your own creative workspace.':'你的专属创意工作区。','Full collaboration and workflow power.':'完整的协作与工作流功能。','Creative infrastructure at scale.':'面向规模化创作的基础设施。','What you get:':'你将获得：','Custom enterprise pricing':'定制企业价格','SOC II Compliance':'符合 SOC II','Model access controls':'模型访问控制','Usage management':'用量管理','Full IP ownership over outputs':'生成内容的完整知识产权','Dedicated real-time support':'专属实时支持','Bespoke onboarding, training, and creative support':'定制入门、培训和创意支持','Schedule a call':'预约咨询','We help the world\'s best creative teams':'我们帮助全球优秀创意团队','adapt to the generative age. Let us help you.':'适应生成式 AI 时代。让我们为你提供帮助。','Bespoke workflows, dedicated support, white-glove onboarding, and more.':'定制工作流、专属支持、细致入门服务等。','Faster production, without sacrificing quality':'更快完成制作，同时保持品质','Shared creative system that scales':'可扩展的共享创意系统','Seamless collaboration across whole team':'整个团队无缝协作','Brand Marketing Team':'品牌营销团队','Creative Agency':'创意代理公司','Film Studio':'影视工作室'
+});
+
+Object.assign(FLORA_ZH, {
+'/mo':'/月','/seat/mo':'/席位/月','billed quarterly':'按季度计费','billed yearly':'按年计费','billed monthly':'按月计费',
+[`"What would've taken me days of 3D reconstruction and rendering took me less than an hour."`]:'“原本需要几天完成的 3D 重建和渲染，现在不到一小时就完成了。”',
+[`"I look at FLORA as an operating system more than a creative tool. We run all of our agency's research, design, and advertising in it."`]:'“我更愿意把 FLORA 看作一个操作系统，而不仅是创意工具。我们在里面完成整个机构的研究、设计和广告工作。”',
+'"We have really enjoyed the collaborative nature of the platform and access to such a robust collection of APIs."':'“我们很喜欢这个平台的协作方式，以及它提供的丰富 API。”',
+'Change workspace icon':'更换工作区图标','Search models by name, provider, or category...':'按名称、提供商或类别搜索模型…'
+});
+Object.assign(FLORA_ZH, {
+'Subscribe to':'订阅','Configure your plan details to make it right for you':'配置适合你的套餐',
+'Seats':'席位','Each editor seat can edit and generate with FLORA.':'每个编辑者席位都可以在 FLORA 中编辑和生成。',
+'Remove a seat':'减少一个席位','Add a seat':'增加一个席位','Minimum 1 · Maximum 8':'最少 1 个 · 最多 8 个',
+'Enable automatic top-ups':'启用自动充值','Set an amount to add automatically when your balance falls below':'设置自动充值金额。当余额低于',
+'. Automatic top-ups are capped at $':'时，将自动充值。每个计费周期的自动充值上限为 $',
+'per billing period, which resets each':'，重置周期单位：',
+'month':'个月','months':'个月','year':'年','years':'年','seat':'个席位','seats':'个席位','plan x':'套餐 ×',
+'Auto top-up amount':'自动充值金额','Plan summary':'套餐明细','Total due today':'今日应付总额','Continue to checkout':'继续前往结账',
+'Billed monthly':'按月计费','Billed quarterly':'按季度计费','Billed yearly':'按年计费'
+});
+Object.assign(FLORA_ZH, {
+'Elements':'元素','Styles':'风格','Brand Kits':'品牌套件','Generation History':'生成历史','No pinned projects yet':'暂无固定的项目',
+'Search FLORA':'搜索 FLORA','Search tools, projects, folders, people, and community...':'搜索工具、项目、文件夹、成员和社区…','People':'成员','Suggestions':'推荐','Destinations':'快捷入口','Navigate':'导航','Open':'打开','Bulk Generate':'批量生成','Director':'导演','Pose':'姿势','Realtime':'实时','Create a new project':'创建新项目','Start with a blank canvas':'从空白画布开始','Browse all projects':'浏览全部项目','Open the full project library':'打开完整项目库','Browse all tools':'浏览全部工具','Open the tools library':'打开工具库','Browse community':'浏览社区','Open community projects and events':'查看社区项目和活动',
+'Split Text':'拆分文本','Find and Replace':'查找和替换','Concat Text':'合并文本','All Text Actions':'全部文本操作','Search actions':'搜索操作','QR Code Generator':'二维码生成器','Upgrade to use actions':'升级后使用操作','Upgrade to generate custom actions':'升级后生成自定义操作','Generate tool':'生成工具','Document':'文档',
+'Search compatible models':'搜索兼容模型','Auto select model':'自动选择模型','Use multiple models':'使用多个模型',
+'Open in Image Editor':'在图片编辑器中打开','Crop':'裁剪','Upscale':'高清放大','Remove background':'移除背景','Inpaint':'局部重绘','Outpaint':'扩图','Change camera angle':'更改镜头角度','Image to 3D':'图片转 3D','Split into layers':'拆分为图层','Split into grid':'拆分为网格','Color Grade Image':'图片调色','Overlay Image':'叠加图片','Draw':'绘制','All Image Actions':'全部图片操作'
+});
+Object.assign(FLORA_ZH, {
+'Search tools':'搜索工具','Fashion Studio':'时尚工作室','Take any garment from first sketch to campaign-ready.':'让服装从最初草图发展为可用于宣传活动的作品。','Create many image variations at once.':'一次生成多张图片变体。','Direct a continuous previz stream with live prompts.':'通过实时提示词控制连续的预览画面。','Pose a figure with live AI rendering.':'调整人物姿势并实时查看 AI 渲染效果。','Restyle your live camera.':'实时改变摄像头画面的风格。',
+'Place a text label on the canvas.':'在画布上放置文本标签。','Add lightweight notes and labels directly alongside your work.':'在作品旁直接添加简短笔记和标签。','Press':'按','to select Annotate':'选择标注工具','Toolbar position':'工具栏位置','Top':'顶部','Left':'左侧','Bottom':'底部','Show dot grid':'显示点状网格','Talk with everyone on this canvas':'与此画布上的所有人聊天','No active tasks':'暂无进行中的任务',
+'Name':'名称','File type':'文件类型','File size':'文件大小','Date uploaded':'上传日期','Uploaded by':'上传者',
+'Manage workspace members, seats, permissions, and usage limits.':'管理工作区成员、席位、权限和用量上限。','Free plan':'免费套餐','Limited usage':'有限用量','Learn how pricing works':'了解计费方式','Editor seats':'编辑者席位','Next billing':'下次账单','Manage & Invoices':'管理与账单','Usage this period':'本周期用量','Included usage':'套餐包含的用量','Wallet':'钱包','Top up':'充值','An active plan is required to buy prepaid credits.':'需要有效的付费套餐才能购买预付额度。','View plans':'查看套餐','All Folders':'所有文件夹','All Projects':'所有项目','Invite':'邀请','Person':'成员','Usage (this month)':'用量（本月）','Workspace member usage limit':'工作区成员用量上限','Permissions':'权限','No limit':'无上限','Owner':'所有者','Total':'合计'
+});
+Object.assign(FLORA_ZH, {'Unread':'未读','Read':'已读','No activity yet':'暂无动态','Replies, mentions, share comments and usage requests land here.':'回复、提及、分享评论和用量请求会显示在这里。'});
+Object.assign(FLORA_ZH, {'Search Workspaces':'搜索工作区','All workspaces':'所有工作区','Create new Workspace':'创建新工作区','Create · FLORA':'创作 · FLORA'});
+Object.assign(FLORA_ZH, {
+'Manage devices connected to your Flora account. Revoking a device ends its access across all workspaces.':'管理连接到 Flora 账户的设备。撤销设备后，该设备将失去所有工作区的访问权限。',
+'Workspace access updates when your membership changes. Last used reflects the latest sign-in or credential renewal.':'工作区访问权限会随成员身份变化而更新。“上次使用”显示最近一次登录或凭据更新的时间。',
+'Refresh':'刷新','No connected devices yet.':'暂无已连接的设备。','Your devices':'你的设备','Revoke':'撤销访问','Last used':'上次使用','Connected devices':'已连接的设备',
+'Professional-grade face enhancement.':'专业级人脸增强。',"Google's best for complex reasoning.":'Google 适用于复杂推理的顶级模型。',
+'Merge Audio and Video':'合并音频与视频','SVG Converter':'SVG 转换器','Upload Lora':'上传 LoRA','Video Transcoder':'视频转码器'
+});
+Object.assign(FLORA_ZH, {
+'Manage API keys for accessing the Flora API. You can have up to':'管理用于访问 Flora API 的密钥。最多可同时使用',
+'active keys at a time.':'个有效密钥。','Read the API docs':'阅读 API 文档','Active Keys':'有效密钥','Active API keys':'有效 API 密钥','Create API Key':'创建 API 密钥','No active API key. Create one to get started.':'暂无有效的 API 密钥。创建一个密钥即可开始使用。','Webhook signing secret':'Webhook 签名密钥','One secret signs every webhook for this workspace. Rotate it if it may have leaked.':'此工作区的所有 Webhook 都使用同一个密钥签名。如果密钥可能泄露，请轮换密钥。','Rotate secret':'轮换密钥'
+});
+
+Object.assign(FLORA_ZH, {
+  'When your balance falls below':'当余额低于',
+  ", we'll add":'时，自动充值',
+  'per billing period, which resets each':'，上限每',
+});
+Object.assign(FLORA_ZH, {
+'Your canvas is empty':'你的画布还是空的',
+'Open your new project in your preferred AI assistant, or get started by adding a node to build directly in FLORA.':'在你常用的 AI 助手中打开新项目，或添加节点，直接在 FLORA 中开始创作。',
+'Open in Claude':'在 Claude 中打开','Open in ChatGPT':'在 ChatGPT 中打开','Open in Cursor':'在 Cursor 中打开','Open in Grok Bot':'在 Grok Bot 中打开','Other agents':'其他智能体',
+'OR':'或','Double-click anywhere':'双击画布任意位置','or press':'或按','to get started':'开始创作',
+'Choose library section':'选择素材库分类','Hide minimap':'隐藏画布缩略图','Show minimap':'显示画布缩略图','Open FAUNA chat':'打开 FAUNA 聊天','Close card':'关闭卡片','Welcome to Starter':'欢迎使用 Starter','Your Starter plan is now active.':'你的 Starter 套餐现已生效。'
+});
+
+// 席位升级确认和设备管理。
+Object.assign(FLORA_ZH, {
+  'Add editor seats':'增加编辑者席位',
+  'New seats are added immediately after Stripe confirms payment.':'Stripe 确认付款后，新席位立即添加。',
+  'Today':'今天', 'Charged now':'现在扣款', 'Usage added now':'立即增加的用量额度',
+  'Available immediately':'立即可用', 'Renews':'续订', 'Invoice':'账单',
+  'Charged at renewal':'续订时扣款', 'Usage pool':'共享用量额度', 'Resets at renewal':'续订时重置',
+  "Today's amount only covers the rest of your current billing cycle. Renewal pricing is the full amount.":'今天的费用仅涵盖当前计费周期剩余时间；续订时按全额价格计费。',
+  'Start today':'今天开始', 'Confirm upgrade':'确认升级',
+  'Manage devices connected to your Flora account. Revoking a device ends its access across all workspaces.':'管理连接到你的 Flora 账户的设备。撤销设备将终止其对所有工作区的访问。',
+  'Workspace access updates when your membership changes. Last used reflects the latest sign-in or credential renewal.':'工作区访问权限会随你的成员身份变化而更新。“上次使用”显示最近一次登录或凭证更新的时间。',
+  'Refresh':'刷新', 'No connected devices yet.':'暂无已连接的设备。', 'Your devices':'你的设备',
+  'Active Keys':'有效密钥', 'Active API keys':'有效 API 密钥', 'Create API Key':'创建 API 密钥',
+  'No active API key. Create one to get started.':'暂无有效的 API 密钥。创建密钥即可开始使用。',
+  'Webhook signing secret':'Webhook 签名密钥', 'One secret signs every webhook for this workspace. Rotate it if it may have leaked.':'此工作区的所有 Webhook 均使用同一密钥签名。如果密钥可能已泄露，请更换。',
+  'Rotate secret':'更换密钥', 'Read the API docs':'阅读 API 文档'
+});
+
+// 视频模型选择器中的功能说明。
+Object.assign(FLORA_ZH, {
+  'Single-shot video up to 30 seconds with native audio.':'生成最长 30 秒的单镜头视频，支持原生音频。',
+  "fal's post-trained H3: sharper prompt adherence at 768P, generated in seconds.":'fal 后训练的 H3 模型：更准确地遵循提示词，支持 768P，数秒即可生成。',
+  'Next-gen video generation with audio, via Enhancor.':'通过 Enhancor 使用新一代带音频的视频生成。',
+  "Google's Omni video model, with 360p-4k output, explicit first and last frames, and video references for character consistency.":'Google 的 Omni 视频模型，支持 360p 至 4K 输出、指定首尾帧，以及使用视频参考保持角色一致。',
+  'Video with synchronized audio, opening and closing frames, timed keyframes, and clip continuation.':'生成音画同步的视频，支持首尾帧、定时关键帧和视频续接。',
+  'Cinematic visuals, fluid motion, and native audio generation.':'生成电影感画面、流畅动作和原生音频。',
+  'Frame-accurate motion with start and end frame control.':'精确控制视频动作，支持设置起始帧和结束帧。',
+  'Short clips with synchronized audio from a prompt, a start frame, or image, video, and audio references.':'根据提示词、起始帧或图片、视频和音频参考生成音画同步的短片。',
+  'Product, UGC, and presenter videos with synchronized native audio, steered by an optional image and audio track.':'生成带原生同步音频的产品、用户创作内容和演示者视频，可选用图片和音轨作为参考。',
+  'High-fidelity cinematic motion with strong prompt adherence.':'生成高保真电影感动态画面，准确遵循提示词。',
+  'Video generation with audio from xAI.':'xAI 的带音频视频生成模型。',
+  'Fast 4K output with generated audio.':'快速生成 4K 视频和音频。',
+  'Video model trained on fully licensed data.':'使用完全授权的数据训练的视频模型。',
+  "OpenAI's best, with synced audio and voice.":'OpenAI 的高性能模型，支持同步音频和语音。',
+  'Open-source model, customizable for fine-tuning.':'开源模型，可按需微调。',
+  'Try "DJ set highlight reel, beat-synced"':'试试“DJ 演出精彩集锦，画面与节拍同步”'
+});
+
+// 视频模型提供商子菜单。
+Object.assign(FLORA_ZH, {
+ 'WAN 3.0 on faster serving: up to 30 seconds in one pass with native audio, keyframes, and image, video, and audio references. Connected reference videos are billed per second at the same rate as the output.':'WAN 3.0 加速服务：单次生成最长 30 秒，支持原生音频、关键帧及图片、视频和音频参考。连接的参考视频按秒计费，费率与输出视频相同。',
+ 'Up to 30 seconds in one pass with native audio, keyframes, and image, video, and audio references. Connected reference videos are billed per second at the same rate as the output.':'单次生成最长 30 秒，支持原生音频、关键帧及图片、视频和音频参考。连接的参考视频按秒计费，费率与输出视频相同。',
+ 'Generate videos with synced audio using customizable parameters.':'使用可自定义参数生成音画同步的视频。',
+ 'Longer duration and integrated audio support.':'支持更长时长和集成音频。',
+ 'Cinematic cuts and integrated audio.':'支持电影感镜头切换和集成音频。',
+ 'Built-in audio generation.':'内置音频生成。',
+ 'Diverse motion styles and camera options.':'支持多种运动风格和镜头选项。'
+});
+
+// 视频模型提供商的其余子项说明。
+Object.assign(FLORA_ZH, {
+ "fal's faster, cheaper H3 Max: 2x the speed at half the cost, 768P in seconds.":'fal 的高速低价 H3 Max：速度提高至 2 倍，费用减半，数秒生成 768P 视频。',
+ 'MiniMax video with keyframe control and image, video, and audio references.':'MiniMax 视频模型，支持关键帧控制及图片、视频和音频参考。',
+ '1080p native with expressive motion.':'原生 1080p，动作表现丰富。',
+ 'Strong motion with dynamic camera work.':'动作表现出色，支持动态镜头。',
+ 'Native 1080p with realistic physics.':'原生 1080p，呈现逼真的物理效果。',
+ 'Fast, post-trained FLUX 3 video with synchronized audio, first/last frames, and timed keyframes.':'经过后训练的高速 FLUX 3 视频模型，支持同步音频、首尾帧及定时关键帧。',
+ 'Lightweight, cost-effective video generation with audio.':'轻量且经济的带音频视频生成。',
+ 'Powerful model with native sound.':'性能强劲，支持原生音频。',
+ 'High quality with fixed camera option.':'高质量视频，支持固定镜头选项。',
+ 'Kling v4 text-to-video and image-to-video generation.':'使用 Kling v4 进行文字转视频和图片转视频。',
+ 'Improved lipsync and multishot generation capabilities.':'增强口型同步与多镜头生成能力。',
+ 'Optimized for rapid iteration and high-volume production.':'针对快速迭代和批量制作优化。',
+ 'Faster and more cost effective than Kling 3.0 Pro.':'比 Kling 3.0 Pro 速度更快、成本更低。',
+ 'Flagship video model from Kling.':'Kling 的旗舰视频模型。',
+ 'Kling O3 at a lower cost and faster speed.':'以更低成本和更快速度使用 Kling O3。',
+ 'Top-tier visuals with synced voice and sound.':'高品质画面，支持同步语音和声音。',
+ 'Precise edits with text, image, or video guidance.':'通过文字、图片或视频引导进行精确编辑。',
+ 'Smooth motion at faster generation speeds.':'以更快的生成速度呈现流畅动作。',
+ 'Precise prompt following with dynamic motion.':'准确遵循提示词，生成动态动作。',
+ 'Balanced quality and generation speed.':'兼顾画质与生成速度。',
+ 'Reliable motion with good consistency.':'动作稳定，画面一致性良好。'
+});
+
+// 画布视频操作与参数。
+Object.assign(FLORA_ZH, {
+ 'Image mode':'图片模式','Prompt Expansion Mode':'提示词扩展模式','Balanced':'均衡',
+ 'Stitch Videos':'拼接视频','Split Video':'分割视频','Color Grade Video':'视频调色','Split Audio from Video':'分离视频音频','All Video Actions':'所有视频操作',
+ 'Extract Video Frames':'提取视频帧','Video to Frame Grid':'视频帧网格','Boomerang':'往返循环','Reverse Video':'视频倒放','Video to Long Exposure':'视频转长曝光','Video Effect':'视频特效','Video Color Filter':'视频色彩滤镜','Speed Up Video':'视频加速','Slow Down Video':'视频慢放','Duplicate Video':'复制视频','Greenscreen Remove':'绿幕抠像','Resize Video':'调整视频尺寸','Change Video AR':'更改视频宽高比','Merge Audio into Video':'合并音频到视频',
+ 'Join multiple clips into one':'将多个片段拼接为一个视频','Cut a video into segments':'将视频切分成多个片段','Extract still frames from a video as PNG images':'将视频中的静态帧提取为 PNG 图片','Adjust colors, tone, and contrast':'调整颜色、色调和对比度','Extract frames from a video and arrange them in a grid contact sheet (PNG)':'提取视频帧并排列成网格预览图（PNG）','Play a video forward then in reverse for a classic boomerang effect':'先正放再倒放，制作往返循环效果','Play a video in reverse with configurable audio behavior':'倒放视频，并可设置音频处理方式','Stack all frames of a video into a single long-exposure image (average / lighten / darken blend)':'将视频的全部帧叠加为一张长曝光图片（平均／变亮／变暗混合）','Apply a stylistic video effect: vignette, film grain, pixelate, camera shake, chromatic aberration, or VHS':'应用视频特效：暗角、胶片颗粒、像素化、镜头抖动、色差或 VHS','Apply a preset color filter to a video: grayscale, sepia, invert, B&W, posterize, solarize, Clarendon, Moon, Nashville, Noir, Fade, Cross Process':'为视频应用预设滤镜：灰度、棕褐色、反相、黑白、色调分离、曝光反转、Clarendon、Moon、Nashville、Noir、褪色或交叉冲印','Play a video faster while keeping or dropping the audio':'加速播放视频，可保留或移除音频','Play a video slower while keeping or dropping the audio':'放慢播放视频，可保留或移除音频','Output N copies of the input video (useful for branching workflows into parallel lanes)':'输出指定数量的视频副本，便于并行工作流','Chroma-key out a background color (green/blue/custom) and output a transparent VP9 WebM':'通过色度键去除绿色、蓝色或自定义背景，输出透明 VP9 WebM','Resize a video to a target resolution while preserving aspect ratio. The chosen value is applied to the shorter side.':'保持宽高比调整视频分辨率，所选数值应用于短边。',"Change a video's aspect ratio by center-cropping or padding without upscaling":'通过居中裁剪或填充更改视频宽高比，不放大画面', 'Extract the audio track from a video and produce a muted video alongside it':'提取视频音轨，同时输出静音视频',"Replace a video's audio track with the provided audio. Stream-copies whenever possible for speed.":'用提供的音频替换视频音轨；在可能的情况下直接复制流以提高速度。'
+});
+
+// 工作区用量统计。
+Object.assign(FLORA_ZH, {
+ 'New Fashion Studio':'新建时尚工作室','Price list':'价格表','Export CSV':'导出 CSV','Last 24 hours':'最近 24 小时','Last 7 days':'最近 7 天','Last 30 days':'最近 30 天','Last 90 days':'最近 90 天','All time':'全部时间',
+ 'Generations across this workspace for the selected period.':'所选时间内此工作区的生成记录。','This period':'本周期','Summary values use pricing v3 usage totals. Aggregates may differ slightly from row totals due to rounding.':'汇总值使用新版计费用量总额；由于四舍五入，汇总值可能与各行合计略有差异。',
+ 'Text Models':'文本模型','Image Models':'图片模型','Audio Models':'音频模型','Video Models':'视频模型','Model Breakdown':'模型明细','Activity':'活动记录','User':'用户','All Users':'所有用户','Activity view':'活动视图','Generations':'生成记录','Conversations':'会话','Status':'状态','Permission':'权限','Time':'时间','Open generation in project':'在项目中打开生成结果','Copy to clipboard':'复制到剪贴板','Success':'成功','Failed':'失败','Included':'套餐包含','Editor':'编辑者','Load more':'加载更多',
+ 'Create chats billed per message, totaled over the loaded turns.':'创作会话按消息计费，此处汇总已加载的对话轮次。','No conversations match these filters.':'没有符合筛选条件的会话。'
+});
+Object.assign(FLORA_ZH, {'Create with FLORA from the comfort of your Slack workspace.':'直接在 Slack 工作区中使用 FLORA 创作。','Add to Slack':'添加到 Slack','Downgrade to Free':'降级到免费版'});
+Object.assign(FLORA_ZH, {'Starter plan':'Starter 套餐','About editor seats':'关于编辑者席位','Manage seats':'管理席位','Editor seats used':'已使用的编辑者席位','About wallet':'关于钱包','Auto top-up':'自动充值','Enable auto top-up':'启用自动充值','Add prepaid credits to keep generating after your included usage runs out.':'套餐包含的用量用完后，可添加预付额度以继续生成。','Add credits':'添加额度','% used':'% 已使用'});
+Object.assign(FLORA_ZH, {'Manage editor seats':'管理编辑者席位','Choose your total seats. Review pricing before confirming any change.':'选择席位总数。确认任何变更前，请先查看价格。','Total seats':'席位总数','Decrease total seats':'减少席位总数','Increase total seats':'增加席位总数','Review pricing before confirming.':'确认前请查看价格。','Review seat change':'查看席位变更','Decrease seat count':'减少席位数量'});
+
+// 画布节点右键菜单。
+Object.assign(FLORA_ZH, {'Create Technique':'创建技巧','Add comment':'添加评论','Copy link to selection':'复制所选内容的链接','Paste':'粘贴','Duplicate':'创建副本','Tag':'标签','Tag red':'红色标签','Tag orange':'橙色标签','Tag yellow':'黄色标签','Tag green':'绿色标签','Tag blue':'蓝色标签','Tag purple':'紫色标签','Tag gray':'灰色标签'});
+Object.assign(FLORA_ZH, {'Add node':'添加节点','Add field':'添加区域','Add label':'添加标注','Add note':'添加笔记'});
+
+// 图片生成与画布参考模式：模型描述。
+Object.assign(FLORA_ZH, {
+ "Alibaba's flagship generate-and-edit model: photoreal detail, precise text, up to 3 references.":'阿里巴巴的旗舰生成与编辑模型：写实细节、精准文字，最多支持 3 张参考图。',
+ "Alibaba's unified text-to-image and editing model with strong typography.":'阿里巴巴的文生图与编辑一体模型，文字排版能力出色。',
+ 'Next-gen unified editing model.':'新一代一体化图片编辑模型。', 'Complex layouts with multiple text elements.':'适合包含多个文字元素的复杂版式。',
+ 'Super-fast, cost-effective model.':'速度极快、成本较低的模型。','High realism with fine detail control.':'高度写实，支持精细控制细节。',
+ 'Fast FLUX 3 generation and editing in seconds, with up to 10 references, seeds, and 4K output.':'数秒内完成 FLUX 3 图片生成和编辑，支持最多 10 张参考图、随机种子及 4K 输出。',
+ 'Flux 2 text-to-image with LoRA style support':'Flux 2 文生图模型，支持 LoRA 风格。','Precise modifications using natural language descriptions.':'使用自然语言描述进行精确修改。',
+ 'Enhanced realism, crisper text and better color adherence.':'增强写实效果，文字更清晰，颜色更贴合要求。','Exceptional realism, precision, and consistency.':'出色的写实度、精确度和一致性。','High-resolution output, great for print.':'输出高分辨率图片，适合印刷。','Adjustable quality/speed balance for production.':'可调整画质与速度的平衡，适合制作流程。','Top-tier Flux quality with multi-reference support.':'高品质 Flux 输出，支持多张参考图。','Speed-optimized Flux 2 model.':'针对速度优化的 Flux 2 模型。','Ultra-high resolution for large-format work.':'超高分辨率，适合大幅面作品。','Quick drafts and rapid iteration.':'适合快速草图和迭代。','Complex scenes with strong spatial awareness.':'擅长复杂场景和空间关系。',
+ 'Edit images turn after turn without drift. Untouched pixels stay exact.':'连续多轮编辑仍能保持一致，未修改区域的像素保持不变。','Transfer faces between images.':'在图片之间转移人脸。','Producing crisp visuals with accurate text rendering.':'生成清晰的画面，并准确呈现文字。','Best for logos and art with crisp, readable type.':'适合制作标志和艺术作品，文字清晰易读。',
+ 'Fast image generation and editing with optional thinking, up to 8 references.':'快速生成和编辑图片，可选思考模式，最多支持 8 张参考图。','High-fidelity, stylized image model.':'高保真风格化图像模型。','Stylized image model with LORA support.':'支持 LoRA 的风格化图像模型。',
+ 'Multimodal reasoning model that can generate pixels.':'能够生成图像的多模态推理模型。','Higher-quality unified image model by Luma.':'Luma 的高质量一体化图像模型。','Realistic lighting and rendering for objects and architecture.':'为物体和建筑生成逼真的光照与渲染效果。',
+ 'Flagship image model from OpenAI, built for speed.':'OpenAI 的旗舰图像模型，针对速度优化。','Flagship image model from OpenAI.':'OpenAI 的旗舰图像模型。','High-fidelity images with strong prompt adherence.':'生成高保真图像，准确遵循提示词。','Great prompt comprehension, natural language edits.':'提示词理解能力强，支持自然语言编辑。',
+ "Quiver's most capable text-to-SVG generation, refined by a frontier model and guided by up to fourteen reference images.":'Quiver 能力最强的文字转 SVG 模型，经过前沿模型优化，最多支持 14 张参考图。',
+ "Quiver's flagship text-to-SVG generation, guided by up to fourteen reference images.":'Quiver 的旗舰文字转 SVG 模型，最多支持 14 张参考图。',
+ 'Highest quality text-to-SVG generation with reference image guidance.':'高质量文字转 SVG，支持参考图引导。','Updated and more efficient text-to-SVG model guided by image references.':'更新且效率更高的文字转 SVG 模型，支持参考图引导。','Text-to-SVG generation guided by up to 4 reference images.':'文字转 SVG，最多支持 4 张参考图。',
+ "Quiver's most capable SVG model: Arrow with a frontier model's refinement, for complex styles, compositions and briefs.":'Quiver 能力最强的 SVG 模型：由前沿模型优化 Arrow，适合复杂风格、构图和创意要求。',
+ "Quiver's flagship SVG model: cleaner layering, palettes and outlines, balancing quality and speed.":'Quiver 的旗舰 SVG 模型：图层、配色和轮廓更清晰，兼顾质量与速度。',
+ 'Improved SVG generations in speed, output quality, and structure.':'提升 SVG 的生成速度、输出质量和结构。','Highest quality SVG generations, best for detailed illustrations.':'高质量 SVG 生成，适合细节丰富的插画。','SVG generation for production-ready vector graphics.':'生成可用于制作的 SVG 矢量图形。',
+ 'Fast, low-cost Recraft V4.1 for quick design iterations.':'快速、低成本的 Recraft V4.1，适合设计迭代。','High-fidelity style-consistent vector (SVG) generation from your Recraft vector styles.':'根据你的 Recraft 矢量风格生成高保真、风格一致的 SVG。','Style-consistent vector (SVG) generation from your Recraft vector styles.':'根据你的 Recraft 矢量风格生成风格一致的 SVG。','High-fidelity style-consistent generation from your Recraft styles.':'根据你的 Recraft 风格生成高保真、风格一致的图片。','Style-consistent generation from your Recraft styles.':'根据你的 Recraft 风格生成风格一致的图片。','Tuned for brand systems and editorial work.':'针对品牌系统和编辑设计优化。','Made for hero imagery, campaign work, and print.':'适合主视觉、活动创意和印刷。','High-quality vector illustration generation.':'生成高质量矢量插画。','Optimized for quick, cost-effective image generation with a design focus.':'针对快速、经济的设计类图片生成优化。','Premium-quality raster generation viable across full creative pipelines.':'生成高品质位图，适用于完整的创意制作流程。','High-quality image generation with enhanced detail.':'生成细节增强的高质量图片。','Vector illustrations with enhanced detail.':'生成细节增强的矢量插画。','Built for logos, icons, and illustration systems':'适合制作标志、图标和插画系统。','Clean, vector-style illustrations and graphic design.':'生成简洁的矢量风格插画和平面设计。',
+ 'Model suitable for commercial visual work that needs stronger output quality.':'适合对输出质量要求较高的商业视觉创作。','High quality image model with optimized latency.':'高质量图片模型，针对响应速度优化。','Premium image model with high accuracy.':'高精度、高品质图像模型。','Quality image model from xAI.':'xAI 的高质量图像模型。','Fast image model from xAI.':'xAI 的快速图像模型。','Reve 2.1 API Model':'Reve 2.1 API 模型'
+});
+
+// 多选工具栏、对齐菜单及批量生成面板。
+Object.assign(FLORA_ZH, {
+  'Lock selected nodes':'锁定所选节点', 'Unlock selected nodes':'解锁所选节点',
+  'Save all':'全部保存', 'Horizontal':'水平对齐', 'Vertical':'垂直对齐',
+  'Center':'居中', 'Right':'右侧', 'Middle':'居中', 'Justify':'均匀分布',
+  'Selected nodes have no shared parameters. Bulk editing requires nodes of the same type and mode.':'所选节点没有共同参数。批量编辑需要选择类型和模式相同的节点。',
+  'Add block':'添加区块', 'Run all':'全部运行', 'Make this reusable':'将工作流保存为可复用的技巧',
+  'Turn this workflow into a Technique you can share or run again.':'将此工作流制作成技巧，以便分享或再次运行。',
+  "Don't ask again":'不再提示', 'Dismiss':'关闭', 'Connected apps':'已连接的应用', 'Output format':'输出格式'
+});
+
+// 图片节点右键菜单。
+Object.assign(FLORA_ZH, {
+  'Extract Outputs onto Canvas':'将输出提取到画布',
+  'Copy all to Batch':'将全部内容复制到批量节点',
+  'Create Element':'创建元素'
+});
+
+// 图片节点右键菜单补充。
+Object.assign(FLORA_ZH, {
+  'Copy as PNG':'复制为 PNG',
+  'Set as Thumbnail':'设为缩略图',
+  'Clear node':'清空节点',
+  'Replace node contents':'替换节点内容'
+});
+
+// 画布左侧工具栏悬浮说明与快捷键提示。
+Object.assign(FLORA_ZH, {
+ 'Drop ready-to-run creative workflows onto the canvas.':'将即用型创意工作流放到画布上。',
+ 'Browse and create reusable creative workflows. Each one is packed into a single node and ready to run.':'浏览并创建可复用的创意工作流。每个工作流都封装在一个节点中，可直接运行。',
+ 'Move around the canvas.':'在画布上移动。',
+ 'Pan without selecting or moving the items underneath your pointer.':'平移画布，不会选中或移动指针下方的内容。',
+ 'Organize and spawn saved field groups on the canvas.':'在画布上整理和添加已保存的区域组。',
+ 'Fields are named containers on the Flora canvas that group related nodes so you can organize, move, and run them together.':'区域是画布上带名称的容器，用来组合相关节点，方便一起整理、移动和运行。',
+ 'Find anything on this canvas.':'查找画布上的内容。',
+ 'Search nodes and content without interrupting your workflow.':'搜索节点和内容，无需中断工作流。',
+ 'to open Techniques':'打开技巧', 'to select Hand':'选择抓手', 'to add a Field':'添加区域', 'to open Search':'打开搜索'
+});
+
+// 光标、评论及多选工具的悬浮说明。
+Object.assign(FLORA_ZH, {
+ 'Select and manipulate canvas items.':'选择和操作画布上的内容。',
+ 'Select, move, and resize nodes and fields on the canvas.':'选择、移动和调整画布上的节点与区域。',
+ 'to select Cursor':'选择光标',
+ 'Comments':'评论', 'Leave feedback on the canvas for collaborators.':'在画布上留言，与协作者交流反馈。',
+ 'to add a Comment':'添加评论', 'Align':'对齐'
+});
+
+// 图片操作菜单与上游引用提示。
+Object.assign(FLORA_ZH, {
+ 'Referenced inside an upstream text — edit the parent text node to remove this input.':'此输入在上游文本中被引用，请编辑上游文本节点以移除它。',
+ 'Create a tool...':'创建工具…', 'Pixel Remover':'像素擦除', 'Magic Eraser':'魔术橡皮擦',
+ '3D Shape to Image':'3D 形状转图片', 'Blur':'模糊', 'Pad / Crop Image to AR':'按宽高比填充或裁剪图片',
+ 'Rotate / Flip Image':'旋转或翻转图片', 'Image Filter':'图片滤镜', 'Color Tint Image':'图片颜色着色',
+ 'Color Key':'颜色键控', 'Duplicate Image':'复制图片', 'Side-by-Side Composite':'并排合成',
+ 'Brush pixels to transparent':'用画笔将像素擦除为透明'
+});
+
+// 图片与文本操作目录的完整说明。
+Object.assign(FLORA_ZH, {
+  "2D Shape to Image": "2D 形状转图片",
+  "2D Text to Image": "2D 文字转图片",
+  "Resize Image": "调整图片尺寸",
+  "Shader Effect": "着色器效果",
+  "Image to Video Ken Burns": "图片转视频（肯·伯恩斯效果）",
+  "Minimize text node": "收起文本节点",
+  "Expand text node": "展开文本节点",
+  "Composite a second image onto the first with normalized position, size, rotation, opacity, and blend": "将第二张图片叠加到第一张，调整相对位置、尺寸、旋转、不透明度和混合方式。",
+  "Draw or erase freehand brush strokes on a connected image, or on a blank canvas when no image is connected": "在连接的图片上自由绘制或擦除；未连接图片时使用空白画布。",
+  "Brush to fill pixels from surrounding opaque context": "用画笔根据周围不透明区域填补像素。",
+  "Crop the image with normalized position, size, and rotation": "按相对位置、尺寸和旋转角度裁剪图片。",
+  "Render a 3D shape to an image, optionally composited onto a connected background image": "将 3D 形状渲染为图片，可选择叠加到连接的背景图上。",
+  "Blur the whole image or paint blur onto regions with a brush — gaussian, motion, radial, tilt-shift, bokeh, and more": "模糊整张图片或用画笔涂抹局部，支持高斯、运动、径向、移轴和散景等效果。",
+  "Pad or crop an image to a target aspect ratio without upscaling": "填充或裁剪图片至目标宽高比，不进行放大。",
+  "Rotate an image by any angle (drag to rotate) and flip horizontally, vertically, or both": "任意角度旋转图片，并可水平或垂直翻转。",
+  "Apply an image filter from a selection of presets": "从预设中选择并应用图片滤镜。",
+  "Tint an image with a chosen color using a blend mode (multiply / screen / overlay / soft-light / color)": "使用选定颜色及混合模式为图片着色。",
+  "Isolate, replace, or remove pixels within a tolerance of a target color (background removal, chroma key, color swap)": "按目标颜色和容差隔离、替换或移除像素，可用于去背景和换色。",
+  "Output N copies of the input image (useful for branching workflows into parallel lanes)": "输出指定数量的图片副本，方便并行处理。",
+  "Arrange 2+ images into an auto-fit grid, side-by-side, stacked, or 2x2 grid for before/after and comparison flows": "将两张或更多图片并排、堆叠或排列成网格，方便对比。",
+  "Render a 2D shape to an image, optionally composited onto a connected background image": "将 2D 形状渲染为图片，可选择叠加到连接的背景图上。",
+  "Render text to an image, optionally composited onto a connected background image": "将文字渲染为图片，可选择叠加到连接的背景图上。",
+  "Encode a URL or text input into a QR code image with control over size, colors, error correction, and quiet-zone border.": "将网址或文字转换成二维码，可调整尺寸、颜色、纠错级别和留白边距。",
+  "Resize an image to exact dimensions, a percentage, or a maximum longest side": "按指定尺寸、百分比或最长边上限调整图片大小。",
+  "Apply a GPU shader effect — chromatic aberration, glitch, edges, CRT, ripple, kaleidoscope, bloom, pixelate": "应用 GPU 着色器效果，包括色差、故障、边缘、CRT、波纹、万花筒、辉光和像素化。",
+  "Split text into parts by separator, paragraph, bullets, line count, or character count": "按分隔符、段落、项目符号、行数或字符数拆分文本。",
+  "Find and replace text with case-insensitive and whole-word modes": "查找并替换文本，支持忽略大小写和全词匹配。",
+  "Combine multiple text inputs into one with customizable separator, prefix, suffix, and optional headers": "合并多个文本输入，可自定义分隔符、前后缀和标题。",
+  "Animate a still image with a smooth Ken Burns pan/zoom into a video": "通过平滑的平移和缩放，将静态图片制作成视频。"
+});
+
+// 画板集、生成队列和画布视图提示。
+Object.assign(FLORA_ZH, {
+  "Back to canvas": "返回画布",
+  "Deck view": "画板集视图",
+  "Slide view": "幻灯片视图",
+  "Grid view": "网格视图",
+  "Slide": "幻灯片",
+  "Grid": "网格",
+  "Slides": "幻灯片",
+  "New Slide": "新建幻灯片",
+  "Drop an image or video here, or add a text layer": "将图片或视频拖到这里，或添加文本图层",
+  "Zoom controls": "缩放控制",
+  "Slide assets and notes": "幻灯片素材和备注",
+  "Notes": "备注",
+  "· drag onto the slide": "· 拖到幻灯片上",
+  "Add from Library": "从素材库添加",
+  "All Nodes on Canvas": "画布上的所有节点",
+  "Present": "演示",
+  "Share deck": "分享画板集",
+  "Save and Close": "保存并关闭",
+  "Palette": "调色板",
+  "Background": "背景",
+  "Surface": "表面",
+  "Muted": "柔和色",
+  "Accent": "强调色",
+  "Accent 2": "强调色 2",
+  "Open background color picker": "打开背景颜色选择器",
+  "Hide slide": "隐藏幻灯片",
+  "Duplicate slide": "复制幻灯片",
+  "Auto arrange slide": "自动排列幻灯片",
+  "Clear deck": "清空画板集",
+  "Layers": "图层",
+  "Add Layer": "添加图层",
+  "Add text": "添加文本",
+  "Add rectangle": "添加矩形",
+  "Add circle": "添加圆形",
+  "Add triangle": "添加三角形",
+  "Add line": "添加直线",
+  "Jump to location": "跳转到位置",
+  "Cancel generation": "取消生成",
+  "Clear from list": "从列表中移除",
+  "Still generating...": "仍在生成…",
+  "Your content is out of view": "内容不在当前视野中",
+  "Reset view": "重置视图",
+  "Zoom to fit": "缩放以适应"
+});
+
+Object.assign(FLORA_ZH, {
+  'Remove Background': '移除背景',
+  'Save to Assets': '保存到素材库',
+  'Browse and reuse media from your library.': '浏览并重复使用素材库中的媒体。',
+  'Keep all your assets in one place: upload your own, import from Dropbox and Google Drive, or browse free images on Unsplash.': '将素材集中管理：上传自己的文件、从 Dropbox 和 Google Drive 导入，或浏览 Unsplash 的免费图片。',
+  'to open Assets': '打开素材库',
+  'Files': '文件',
+  'Add File': '添加文件',
+  'Sort': '排序',
+  'Type': '类型',
+  'Add to canvas': '添加到画布'
+});

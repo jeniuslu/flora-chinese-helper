@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "Flora 中文助手",
+  "version": "2.2.0",
+  "description": "为 FLORA 的常用界面提供本地简体中文翻译。",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://app.flora.ai/*",
+        "https://flora.ai/*",
+        "https://www.flora.ai/*",
+        "https://docs.flora.ai/*"
+      ],
+      "js": [
+        "translations.js",
+        "website.js",
+        "docs.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "Flora 中文助手",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "permissions": [
+    "storage",
+    "alarms"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://raw.githubusercontent.com/jeniuslu/flora-chinese-helper/*"
+  ]
+}
