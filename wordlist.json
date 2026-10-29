@@ -975,5 +975,9 @@
     "Add to canvas": "添加到画布",
     "Docs, keyboard shortcuts, and quick links": "文档、键盘快捷键和常用链接",
     "Learn FLORA through guided, interactive lessons": "通过引导式互动课程学习 FLORA"
-  }
+  },
+  "releaseNotes": [
+    "补充左下角「帮助」悬停说明的翻译。",
+    "补充 Nodecademy 悬停说明的翻译。"
+  ]
 }

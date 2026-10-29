@@ -1,1 +1,19 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><style>body{font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;width:250px;margin:0;padding:18px;color:#1f2422}h1{font-size:16px;margin:0 0 16px}label{display:flex;align-items:center;justify-content:space-between;gap:10px}p{font-size:12px;line-height:1.6;color:#68716c;margin:14px 0 0}input{accent-color:#26845a;width:18px;height:18px}button{margin-top:16px;width:100%;padding:9px;border:1px solid #d7ddd9;border-radius:8px;background:#f5f7f5;color:#202924;font:inherit;cursor:pointer}button:disabled{opacity:.6;cursor:default}#status{min-height:18px;margin-top:8px}</style><h1>Flora 中文助手</h1><label>启用界面汉化<input type="checkbox" id="enabled"></label><button id="update">检查词库更新</button><p id="status" role="status"></p><p>词库自动同步，也可以手动检查。页面内容不会上传；离线时使用已保存的词库。</p><script src="popup.js"></script></html>
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<style>
+body{font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;width:250px;margin:0;padding:18px;color:#1f2422}
+h1{font-size:16px;margin:0 0 16px}label{display:flex;align-items:center;justify-content:space-between;gap:10px}
+p{font-size:12px;line-height:1.6;color:#68716c;margin:14px 0 0}input{accent-color:#26845a;width:18px;height:18px}
+button{margin-top:16px;width:100%;padding:9px;border:1px solid #d7ddd9;border-radius:8px;background:#f5f7f5;color:#202924;font:inherit;cursor:pointer}
+button:disabled{opacity:.6;cursor:default}#status{min-height:18px;margin-top:8px}
+#release{margin-top:12px;padding:10px 12px;border-radius:8px;background:#f5f7f5;font-size:12px;line-height:1.6}
+#release h2{font-size:12px;margin:0 0 4px}#release ul{margin:0;padding-left:17px;color:#525d56}#release li+li{margin-top:3px}
+</style>
+<h1>Flora 中文助手</h1>
+<label>启用界面汉化<input type="checkbox" id="enabled"></label>
+<button id="update">检查词库更新</button>
+<p id="status" role="status"></p>
+<section id="release" hidden><h2>本次词库更新</h2><ul id="release-notes"></ul></section>
+<p>词库自动同步，也可以手动检查。页面内容不会上传；离线时使用已保存的词库。</p>
+<script src="popup.js"></script></html>
