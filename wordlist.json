@@ -977,7 +977,48 @@
     "Learn FLORA through guided, interactive lessons": "通过引导式互动课程学习 FLORA"
   },
   "releaseNotes": [
-    "补充左下角「帮助」悬停说明的翻译。",
-    "补充 Nodecademy 悬停说明的翻译。"
+    "新增左下角「帮助」与 Nodecademy 的悬停说明翻译。"
+  ],
+  "updateHistory": [
+    {
+      "version": "2.1.16",
+      "summary": "补充素材库、图片移除背景、保存素材及数量提示。"
+    },
+    {
+      "version": "2.1.15",
+      "summary": "补充画板集、幻灯片、生成队列及画布视图提示。"
+    },
+    {
+      "version": "2.1.14",
+      "summary": "补充图片与文本工具的功能描述、节点缩放等提示。"
+    },
+    {
+      "version": "2.1.13",
+      "summary": "补充节点引用提示、图片操作菜单和工具名称。"
+    },
+    {
+      "version": "2.1.12",
+      "summary": "补充光标、评论及对齐功能的悬停说明。"
+    },
+    {
+      "version": "2.1.11",
+      "summary": "补充技巧、抓手、区域及搜索的悬停说明。"
+    },
+    {
+      "version": "2.1.10",
+      "summary": "补充节点复制、缩略图、清空与替换等操作。"
+    },
+    {
+      "version": "2.1.9",
+      "summary": "补充提取输出、复制到批次和创建元素等操作。"
+    },
+    {
+      "version": "2.1.8",
+      "summary": "补充图像模型及生成模型的用途和功能描述。"
+    },
+    {
+      "version": "2.1.6",
+      "summary": "收录 FLORA 常用界面、工作区与画布菜单的基础翻译。"
+    }
   ]
 }

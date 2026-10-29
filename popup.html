@@ -1,19 +1,22 @@
 <!doctype html>
 <html lang="zh-CN">
-<meta charset="utf-8">
-<style>
-body{font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;width:250px;margin:0;padding:18px;color:#1f2422}
-h1{font-size:16px;margin:0 0 16px}label{display:flex;align-items:center;justify-content:space-between;gap:10px}
-p{font-size:12px;line-height:1.6;color:#68716c;margin:14px 0 0}input{accent-color:#26845a;width:18px;height:18px}
-button{margin-top:16px;width:100%;padding:9px;border:1px solid #d7ddd9;border-radius:8px;background:#f5f7f5;color:#202924;font:inherit;cursor:pointer}
-button:disabled{opacity:.6;cursor:default}#status{min-height:18px;margin-top:8px}
-#release{margin-top:12px;padding:10px 12px;border-radius:8px;background:#f5f7f5;font-size:12px;line-height:1.6}
-#release h2{font-size:12px;margin:0 0 4px}#release ul{margin:0;padding-left:17px;color:#525d56}#release li+li{margin-top:3px}
-</style>
+<head><meta charset="utf-8"><style>
+:root{color-scheme:light; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#1d1d1f}
+*{box-sizing:border-box}body{width:310px;margin:0;background:#fff;font-size:13px}main{padding:20px}
+h1{font-size:16px;letter-spacing:-.02em;margin:0 0 18px;font-weight:650}
+.setting{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0 0 16px}input{accent-color:#1d1d1f;width:16px;height:16px;margin:0}
+button{width:100%;border:0;border-radius:9px;padding:10px 12px;color:#fff;background:#1d1d1f;font:inherit;font-weight:600;cursor:pointer}button:hover{background:#38383a}button:active{background:#555}button:disabled{opacity:.55;cursor:default}
+button:focus-visible,summary:focus-visible,input:focus-visible{outline:2px solid #777;outline-offset:3px}
+#status{font-size:12px;color:#6e6e73;line-height:1.5;margin:9px 0 0;min-height:18px}
+.section{border-top:1px solid #ededed;margin-top:16px;padding-top:14px}h2{margin:0 0 7px;font-size:12px;font-weight:650}ul{padding-left:17px;margin:0;color:#55555a;font-size:12px;line-height:1.65}li+li{margin-top:4px}
+details{margin-top:12px;font-size:12px;color:#55555a}summary{cursor:pointer;color:#1d1d1f;font-weight:600}details ul{margin-top:9px;max-height:200px;overflow:auto}details li strong{color:#1d1d1f;font-weight:600}
+.footnote{font-size:11px;line-height:1.55;color:#85858a;margin:15px 0 0}
+</style></head><body><main>
 <h1>Flora 中文助手</h1>
-<label>启用界面汉化<input type="checkbox" id="enabled"></label>
+<label class="setting">启用界面汉化<input type="checkbox" id="enabled"></label>
 <button id="update">检查词库更新</button>
 <p id="status" role="status"></p>
-<section id="release" hidden><h2>本次词库更新</h2><ul id="release-notes"></ul></section>
-<p>词库自动同步，也可以手动检查。页面内容不会上传；离线时使用已保存的词库。</p>
-<script src="popup.js"></script></html>
+<section id="release" class="section" hidden><h2>本次词库更新</h2><ul id="release-notes"></ul></section>
+<details id="history" hidden><summary>查看词库更新历史</summary><ul id="history-list"></ul></details>
+<p class="footnote">词库自动同步，也可手动检查。页面内容不会上传。</p>
+</main><script src="popup.js"></script></body></html>
