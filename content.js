@@ -111,6 +111,9 @@
     if (translated !== source) {
       originals.set(node, {source, translated});
       if (node.nodeValue !== translated) node.nodeValue = translated;
+    } else if (prior && node.nodeValue === prior.translated) {
+      originals.delete(node);
+      node.nodeValue = source;
     }
   }
   function element(el) {
@@ -134,6 +137,9 @@
         if (translated !== source) {
           saved[name] = {source, translated};
           if (value !== translated) el.setAttribute(name, translated);
+        } else if (saved[name] && value === saved[name].translated) {
+          delete saved[name];
+          el.setAttribute(name, source);
         }
       }
     }
