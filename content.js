@@ -53,6 +53,12 @@
       else if (/^(\$[\d,.]+) billed (monthly|quarterly|yearly)$/.test(match[2])) { const bill = match[2].match(/^(\$[\d,.]+) billed (monthly|quarterly|yearly)$/); replacement = bill[1] + ' ' + ({monthly:'按月计费',quarterly:'按季度计费',yearly:'按年计费'}[bill[2]]); }
       else if (/^Resets on (January|February|March|April|May|June|July|August|September|October|November|December) (\d{1,2})(?:st|nd|rd|th) at (.+)$/.test(match[2])) { const d=match[2].match(/^Resets on (January|February|March|April|May|June|July|August|September|October|November|December) (\d{1,2})(?:st|nd|rd|th) at (.+)$/); const month=['January','February','March','April','May','June','July','August','September','October','November','December'].indexOf(d[1])+1; replacement=`于 ${month} 月 ${d[2]} 日 ${d[3]} 重置`; }
       else if (/^Free · \d+ members?$/.test(match[2])) replacement = match[2].replace(/^Free · (\d+) members?$/, '免费版 · $1 位成员');
+      else if (/^Starter · \d+ members?$/.test(match[2])) replacement = match[2].replace(/^Starter · (\d+) members?$/, 'Starter 套餐 · $1 位成员');
+      else if (/^Last updated (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) \d{1,2}, \d{4}$/.test(match[2])) {
+        const date = match[2].match(/^Last updated (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d{1,2}), (\d{4})$/);
+        const month = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'].indexOf(date[1]) + 1;
+        replacement = `最后更新：${date[3]} 年 ${month} 月 ${date[2]} 日`;
+      }
       else if (location.hostname === 'docs.flora.ai' && /^(\d+) (day|days|month|months|year|years) ago$/.test(match[2])) { const d=match[2].match(/^(\d+) (day|days|month|months|year|years) ago$/); replacement=d[1]+({day:' 天前',days:' 天前',month:' 个月前',months:' 个月前',year:' 年前',years:' 年前'}[d[2]]); }
       else if (/^(\d+) (minute|minutes|hour|hours|day|days) ago$/.test(match[2])) { const d=match[2].match(/^(\d+) (minute|minutes|hour|hours|day|days) ago$/); replacement=d[1]+({minute:' 分钟前',minutes:' 分钟前',hour:' 小时前',hours:' 小时前',day:' 天前',days:' 天前'}[d[2]]); }
       else if (/^Adds (\$[\d,.]+) below (\$[\d,.]+), up to (\$[\d,.]+) per billing period\.$/.test(match[2])) { const m=match[2].match(/^Adds (\$[\d,.]+) below (\$[\d,.]+), up to (\$[\d,.]+) per billing period\.$/); replacement=`余额低于 ${m[2]} 时充值 ${m[1]}，每个计费周期最多 ${m[3]}。`; }

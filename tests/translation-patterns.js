@@ -1,0 +1,15 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const vm = require('node:vm');
+const source = fs.readFileSync(require('node:path').join(__dirname, '../content.js'), 'utf8');
+const start = source.indexOf('  const translate = value => {');
+const end = source.indexOf('\n  function text(node)', start);
+assert.ok(start >= 0 && end > start, 'translation function is present');
+const translate = vm.runInNewContext(`const FLORA_ZH = {}; let remoteTranslations = {};\n${source.slice(start, end)}\ntranslate`, {location: {hostname: 'app.flora.ai'}});
+assert.equal(translate('Free · 1 member'), '免费版 · 1 位成员');
+assert.equal(translate('Starter · 4 members'), 'Starter 套餐 · 4 位成员');
+assert.equal(translate('Starter · 12 members'), 'Starter 套餐 · 12 位成员');
+assert.equal(translate('Last updated Oct 30, 2026'), '最后更新：2026 年 10 月 30 日');
+assert.equal(translate('Last updated Jan 2, 2027'), '最后更新：2027 年 1 月 2 日');
+assert.equal(translate('My Starter · 4 members'), 'My Starter · 4 members');
+console.log('动态成员数和日期翻译检查通过');

@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "version": "2026.10.29.1",
+  "version": "2026.10.30.1",
   "translations": {
     "New project": "新建项目",
     "Create new project": "创建新项目",
@@ -974,12 +974,27 @@
     "Type": "类型",
     "Add to canvas": "添加到画布",
     "Docs, keyboard shortcuts, and quick links": "文档、键盘快捷键和常用链接",
-    "Learn FLORA through guided, interactive lessons": "通过引导式互动课程学习 FLORA"
+    "Learn FLORA through guided, interactive lessons": "通过引导式互动课程学习 FLORA",
+    "Free · 1 member": "免费版 · 1 位成员",
+    "Starter · 4 members": "Starter 套餐 · 4 位成员",
+    "Nothing in the trash": "回收站为空",
+    "Recently deleted projects will appear here": "最近删除的项目将显示在这里",
+    "Back to my projects": "返回我的项目",
+    "Help & Resources": "帮助与资源",
+    "Report a bug": "报告问题",
+    "Suggest a feature": "提出功能建议",
+    "Contact support": "联系支持团队",
+    "Last updated Oct 30, 2026": "最后更新：2026 年 10 月 30 日"
   },
   "releaseNotes": [
-    "新增左下角「帮助」与 Nodecademy 的悬停说明翻译。"
+    "补充工作区套餐与成员数量、回收站空状态和帮助菜单的翻译。",
+    "补充 FLORA 更新日期的翻译。"
   ],
   "updateHistory": [
+    {
+      "version": "2026.10.29.1",
+      "summary": "补充左下角帮助与 Nodecademy 的悬停说明。"
+    },
     {
       "version": "2.1.16",
       "summary": "补充素材库、图片移除背景、保存素材及数量提示。"
