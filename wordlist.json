@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "version": "2026.10.30.1",
+  "version": "2026.10.30.2",
   "translations": {
     "New project": "新建项目",
     "Create new project": "创建新项目",
@@ -984,13 +984,22 @@
     "Report a bug": "报告问题",
     "Suggest a feature": "提出功能建议",
     "Contact support": "联系支持团队",
-    "Last updated Oct 30, 2026": "最后更新：2026 年 10 月 30 日"
+    "Last updated Oct 30, 2026": "最后更新：2026 年 10 月 30 日",
+    "Apps & tools": "应用与工具",
+    "Make slides": "制作幻灯片",
+    "Canvas settings": "画布设置",
+    "Hide dot grid": "隐藏点状网格",
+    "Fit view": "适应画布",
+    "Nodes": "节点"
   },
   "releaseNotes": [
-    "补充工作区套餐与成员数量、回收站空状态和帮助菜单的翻译。",
-    "补充 FLORA 更新日期的翻译。"
+    "补充 Shift+0 搜索界面的栏目与画布操作翻译。"
   ],
   "updateHistory": [
+    {
+      "version": "2026.10.30.1",
+      "summary": "补充工作区成员、回收站和帮助菜单的翻译。"
+    },
     {
       "version": "2026.10.29.1",
       "summary": "补充左下角帮助与 Nodecademy 的悬停说明。"
