@@ -1,0 +1,7 @@
+/* Keep the checkmark and the project name on the same line. */
+#project-filter-combobox-options [role="menuitem"] .truncate.text-left {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  max-width: 100%;
+}
