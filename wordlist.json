@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "version": "2026.11.05.1",
+  "version": "2026.11.05.2",
   "translations": {
     "New project": "新建项目",
     "Create new project": "创建新项目",
@@ -1110,14 +1110,22 @@
     "Add FLORA as a custom connector in Claude (Settings, Connectors, Add custom connector, paste": "在 Claude 中将 FLORA 添加为自定义连接器（依次打开 Settings、Connectors、Add custom connector，粘贴",
     "), sign in with your FLORA account, then ask Claude to generate a video. FLORA quotes the cost in US dollars before anything runs. Setup for every client is at": "），登录 FLORA 账户，然后让 Claude 生成视频。FLORA 会在运行前以美元显示报价。各客户端的设置步骤见",
     "Paste into": "粘贴到",
-    "’s chat.": "的聊天中。"
+    "’s chat.": "的聊天中。",
+    "Workspace usage. Your team has used all included monthly usage. Additional usage is coming from your prepaid wallet.": "工作区用量：团队本月包含的用量已全部用完，额外用量将从预付钱包中扣除。",
+    "Search projects...": "搜索项目…",
+    "Search projects…": "搜索项目…",
+    "Admin": "管理员",
+    "November 27, 2026": "2026 年 11 月 27 日"
   },
   "releaseNotes": [
-    "补充项目页智能体指南卡片、私人项目入口和深色外观提示的翻译。",
-    "补充 FLORA MCP 介绍、安装步骤、技能库及常见问题翻译。",
-    "补充图片操作按钮文案的大小写写法。"
+    "补充工作区用量耗尽提示、项目搜索和成员权限的翻译。",
+    "补充账单日期的显示翻译。"
   ],
   "updateHistory": [
+    {
+      "version": "2026.11.05.1",
+      "summary": "补充项目页智能体指南卡片、私人项目入口和深色外观提示的翻译。 补充 FLORA MCP 介绍、安装步骤、技能库及常见问题翻译。 补充图片操作按钮文案的大小写写法。"
+    },
     {
       "version": "2026.10.30.2",
       "summary": "补充 Shift+0 搜索界面的栏目与画布操作翻译。"
