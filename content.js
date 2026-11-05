@@ -45,6 +45,8 @@
       else if (/^\d+% Left$/.test(match[2])) replacement = match[2].replace(/^(\d+)% Left$/, '剩余 $1%');
       else if (/^Queue \d+ active$/.test(match[2])) replacement = match[2].replace(/^Queue (\d+) active$/, '队列：$1 个进行中');
       else if (/^Edited today by .+$/.test(match[2])) replacement = match[2].replace(/^Edited today by (.+)$/, '$1 今天编辑');
+      else if (/^Edited yesterday by .+$/.test(match[2])) replacement = match[2].replace(/^Edited yesterday by (.+)$/, '$1 昨天编辑');
+      else if (/^View \d+ private projects?$/.test(match[2])) replacement = match[2].replace(/^View (\d+) private projects?$/, '查看 $1 个私人项目');
       else if (/^Edited (January|February|March|April|May|June|July|August|September|October|November|December) (\d{1,2}), (\d{4}) by (.+)$/.test(match[2])) {
         const d = match[2].match(/^Edited (January|February|March|April|May|June|July|August|September|October|November|December) (\d{1,2}), (\d{4}) by (.+)$/);
         const month = ['January','February','March','April','May','June','July','August','September','October','November','December'].indexOf(d[1]) + 1;
@@ -87,6 +89,11 @@
     }
     const prior = originals.get(node);
     const source = prior && node.nodeValue === prior.translated ? prior.source : node.nodeValue;
+    if (/^\/mcp(?:\/|$)/.test(location.pathname) && parent.closest('[role="tab"]') && source.trim() === 'Cursor') {
+      if (node.nodeValue !== source) node.nodeValue = source;
+      originals.delete(node);
+      return;
+    }
     let translated = translate(source);
     // FLORA may render the bulk heading as several text nodes. Limit this
     // fragment handling to the generation heading so node titles remain intact.
