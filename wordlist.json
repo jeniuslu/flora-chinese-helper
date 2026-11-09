@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "version": "2026.11.05.2",
+  "version": "2026.11.09.1",
   "translations": {
     "New project": "新建项目",
     "Create new project": "创建新项目",
@@ -1115,13 +1115,32 @@
     "Search projects...": "搜索项目…",
     "Search projects…": "搜索项目…",
     "Admin": "管理员",
-    "November 27, 2026": "2026 年 11 月 27 日"
+    "November 27, 2026": "2026 年 11 月 27 日",
+    "Top up usage": "充值用量额度",
+    "Add usage once or turn on auto top-up. Prepaid usage never expires.": "单次充值或开启自动充值。预付额度永不过期。",
+    "Top-up amount": "充值金额",
+    "Custom amount": "自定义金额",
+    "Custom amount $": "自定义金额 $",
+    "Automatically top up usage": "自动充值用量额度",
+    "Below": "余额低于",
+    "Below $": "余额低于 $",
+    "Period max": "本周期上限",
+    "Period max $": "本周期上限 $",
+    "gets you about": "约可生成",
+    "generations": "次",
+    "Save auto top-up": "保存自动充值设置",
+    "Add usage": "添加额度",
+    "Add prepaid usage to keep generating after your included usage runs out.": "套餐包含的用量用完后，可添加预付额度以继续生成。",
+    "Add $20 whenever usage falls below $10, up to $400 this billing period.": "余额低于 $10 时充值 $20，本计费周期最多充值 $400。"
   },
   "releaseNotes": [
-    "补充工作区用量耗尽提示、项目搜索和成员权限的翻译。",
-    "补充账单日期的显示翻译。"
+    "补充用量充值和自动充值弹窗的翻译。"
   ],
   "updateHistory": [
+    {
+      "version": "2026.11.05.2",
+      "summary": "补充工作区用量耗尽提示、项目搜索和成员权限的翻译。 补充账单日期的显示翻译。"
+    },
     {
       "version": "2026.11.05.1",
       "summary": "补充项目页智能体指南卡片、私人项目入口和深色外观提示的翻译。 补充 FLORA MCP 介绍、安装步骤、技能库及常见问题翻译。 补充图片操作按钮文案的大小写写法。"
